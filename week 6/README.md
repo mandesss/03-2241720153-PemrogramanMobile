@@ -27,4 +27,6 @@ NAMA : Amanda Vanika Putri
 ![01](images/p5.png)
 
 ## Tugas Praktikum 2
-![01](images/tugas-2.png)
+![01](images/tugas-2-01.png)
+![02](images/tugas-2-02.png)
+![03](images/tugas-2-03.png)
