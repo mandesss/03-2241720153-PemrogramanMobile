@@ -8,7 +8,7 @@ NAMA : Amanda Vanika Putri
 
 ## Praktikum: Menerapkan Plugin di Project Flutter
 
-![01](images/p1.png)
+![01](../../week%207/docs/p1.png)
 
 ## Tugas Praktikum
 1. Selesaikan Praktikum tersebut, lalu dokumentasikan dan push ke repository Anda berupa screenshot hasil pekerjaan beserta penjelasannya di file README.md!
