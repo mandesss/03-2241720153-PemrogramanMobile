@@ -30,3 +30,14 @@ Tambahkan method ini ke dalam class _FuturePageState yang berguna untuk mengambi
 ![jawaban soal 2](../../week%2011/docs/p1/soal2-01.png)
 - Kemudian cobalah akses di browser URI tersebut dengan lengkap seperti ini. Jika menampilkan data JSON, maka Anda telah berhasil. Lakukan capture milik Anda dan tulis di README pada laporan praktikum. Lalu lakukan commit dengan pesan "W11: Soal 2".
 ![jawaban soal 2](../../week%2011/docs/p1/soal2-02.png)
+
+### Langkah 5: Tambah kode di ElevatedButton
+Tambahkan kode pada onPressed di ElevatedButton seperti berikut.
+![05](../../week%2011/docs/p1/langkah5.png)
+
+**Soal 3**
+- Jelaskan maksud kode langkah 5 tersebut terkait substring dan catchError!
+        
+    Substring digunakan untuk mengambil suatu bagian spesifik dari string. Sehingga maksud dari substring di kode di atas adalah  mengambil karakter dari indeks ke-0 sampai ke-458 dari value.body.toString(). Sedangkan catchError berfungsi untuk menangani error yang terjadi saat proses asynchronous  terjadi (pada pemanggilan getData()). 
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 3".
+![jawaban soal 3](../../week%2011/docs/p1/soal3.gif)
