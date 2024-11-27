@@ -216,4 +216,33 @@ Tambahkan widget loading seperti kode berikut. Lalu hot restart, perhatikan peru
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 12".
 ![jawaban soal 12](../../week%2011/docs/p6/soal12.gif)   
 
+## Praktikum 7: Manajemen Future dengan FutureBuilder
+
+### Langkah 1: Modifikasi method getPosition()
+Buka file geolocation.dart kemudian ganti isi method dengan kode ini.
+![01](../../week%2011/docs/p7/langkah1.png)
+
+### Langkah 2: Tambah variabel
+Tambah variabel ini di class _LocationScreenState
+![02](../../week%2011/docs/p7/langkah2.png)
+
+### Langkah 3: Tambah initState()
+Tambah method ini dan set variabel position
+![03](../../week%2011/docs/p7/langkah3.png)
+
+### Langkah 4: Edit method build()
+Ketik kode berikut dan sesuaikan. Kode lama bisa Anda comment atau hapus.
+![04](../../week%2011/docs/p7/langkah4.png)
+
+**Soal 13**
+
+- Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
+
+    Perbedaannya terletak pada adanya indikator loading yang ditampilkan sebelum hasil geolokasi ditampilkan. Selain itu, kita tidak perlu mendefinisikan ulang nilai longitude dan latitude, sehingga kode menjadi lebih sederhana.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 13".
+![jawaban soal 13](../../week%2011/docs/p7/soal13.gif)
+
+
+
 
