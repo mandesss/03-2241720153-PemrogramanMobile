@@ -167,3 +167,53 @@ Tambahkan kode ini di dalam class _FutureStatePage
 - Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
 
     Perbedaannya terletak pada adanya penanganan khusus untuk fungsi returnError() saat fungsi tersebut mengalami error.
+
+## Praktikum 6: Menggunakan Future dengan StatefulWidget
+
+### Langkah 1: Install plugin geolocator
+Tambahkan plugin geolocator dengan mengetik perintah berikut di terminal.
+![01](../../week%2011/docs/p6/langkah1.png)
+
+### Langkah 2: Tambah permission GPS
+Jika Anda menargetkan untuk platform Android, maka tambahkan baris kode berikut di file android/app/src/main/androidmanifest.xml
+![02](../../week%2011/docs/p6/langkah2.png)
+
+### Langkah 3: Buat file geolocation.dart
+Tambahkan file baru ini di folder lib project Anda.
+
+### Langkah 4: Buat StatefulWidget
+Buat class LocationScreen di dalam file geolocation.dart
+
+### Langkah 5: Isi kode geolocation.dart
+![05](../../week%2011/docs/p6/langkah5.png)
+
+**Soal 11**
+
+- Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+![jawaban soal 11](../../week%2011/docs/p6/langkah5.png)
+
+### Langkah 6: Edit main.dart
+Panggil screen baru tersebut di file main Anda seperti berikut.
+![06](../../week%2011/docs/p6/langkah6.png)
+
+### Langkah 7: Run
+Run project Anda di device atau emulator (bukan browser), maka akan tampil seperti berikut ini.
+![07](../../week%2011/docs/p6/langkah7.jpg)
+
+### Langkah 8: Tambahkan animasi loading
+Tambahkan widget loading seperti kode berikut. Lalu hot restart, perhatikan perubahannya.
+![08](../../week%2011/docs/p6/langkah8.png)
+
+**Soal 12**
+- Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+
+- Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+
+    Iya, karena izin untuk mengakses lokasi diperbolehkan sehingga dapat menampilkan koordinat GPS.
+    ![jawaban soal 12](../../week%2011/docs/p6/soal12A.png)
+    ![jawaban soal 12](../../week%2011/docs/p6/soal12B.png)
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 12".
+![jawaban soal 12](../../week%2011/docs/p6/soal12.gif)   
+
+
