@@ -159,3 +159,11 @@ Pada bagian debug console akan melihat teks Complete seperti berikut.
 ![jawaban soal 7](../../week%2011/docs/p5/soal9.gif)
 
 
+### Langkah 4: Tambah method handleError()
+Tambahkan kode ini di dalam class _FutureStatePage
+![04](../../week%2011/docs/p5/langkah4.png)
+
+**Soal 10**
+- Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
+
+    Perbedaannya terletak pada adanya penanganan khusus untuk fungsi returnError() saat fungsi tersebut mengalami error.
