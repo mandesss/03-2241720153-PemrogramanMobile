@@ -126,3 +126,13 @@ Anda akan melihat hasilnya dalam 3 detik berupa angka 6 lebih cepat dibandingkan
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 7".
 ![jawaban soal 7](../../week%2011/docs/p4/soal7.gif)
+
+### Langkah 4: Ganti variabel futureGroup
+Anda dapat menggunakan FutureGroup dengan Future.wait seperti kode berikut.
+![04](../../week%2011/docs/p4/langkah4.png)
+
+**Soal 8**
+- Jelaskan maksud perbedaan kode langkah 1 dan 4!
+        
+    Perbedaannya terletak pada fleksibilitasnya: FutureGroup memungkinkan penambahan future secara dinamis, sedangkan Future.wait lebih sederhana namun memerlukan daftar future yang sudah lengkap saat dipanggil
+
