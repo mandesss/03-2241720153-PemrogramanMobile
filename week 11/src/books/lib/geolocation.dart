@@ -29,15 +29,18 @@ class _LocationScreenState extends State<LocationScreen> {
     return Scaffold(
       appBar: AppBar(title: Text('Current Location Mandes')),
       body: Center(
-        child: FutureBuilder(
+        child: FutureBuilder<Position>(
           future: position,
           builder: (BuildContext context, AsyncSnapshot<Position> snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return const CircularProgressIndicator();
             } else if (snapshot.connectionState == ConnectionState.done) {
+              if (snapshot.hasError) {
+                return Text('Something terrible happened!');
+              }
               return Text(snapshot.data.toString());
             } else {
-              return const Text('');
+              return const Text('Error');
             }
           },
         ),

@@ -243,6 +243,18 @@ Ketik kode berikut dan sesuaikan. Kode lama bisa Anda comment atau hapus.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 13".
 ![jawaban soal 13](../../week%2011/docs/p7/soal13.gif)
 
+### Langkah 5: Tambah handling error
+Tambahkan kode berikut untuk menangani ketika terjadi error. Kemudian hot restart.
+![05](../../week%2011/docs/p7/langkah5.png)
+
+**Soal 14**
+- Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
+
+    Tidak ada perbedaan pada UI karena tampilannya tetap sama. Perbedaannya terletak pada penanganan error, namun dalam program ini tidak terjadi error sehingga kode langsung menjalankan perintah return.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 14".
+![jawaban soal 14](../../week%2011/docs/p7/soal14.gif)
+    
 
 
 
