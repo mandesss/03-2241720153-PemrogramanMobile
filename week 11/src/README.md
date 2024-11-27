@@ -136,3 +136,26 @@ Anda dapat menggunakan FutureGroup dengan Future.wait seperti kode berikut.
         
     Perbedaannya terletak pada fleksibilitasnya: FutureGroup memungkinkan penambahan future secara dinamis, sedangkan Future.wait lebih sederhana namun memerlukan daftar future yang sudah lengkap saat dipanggil
 
+## Praktikum 5: Menangani Respon Error pada Async Code
+
+### Langkah 1: Buka file main.dart
+Tambahkan method ini ke dalam class _FuturePageState
+![01](../../week%2011/docs/p5/langkah1.png)
+
+### Langkah 2: ElevatedButton
+Ganti dengan kode berikut
+![02](../../week%2011/docs/p5/langkah2.png)
+
+### Langkah 3: Run
+Lakukan run dan klik tombol GO! maka akan menghasilkan seperti gambar berikut.
+![03A](../../week%2011/docs/p5/langkah3A.jpg)
+
+Pada bagian debug console akan melihat teks Complete seperti berikut.
+![03B](../../week%2011/docs/p5/langkah3B.png)
+
+**Soal 9**
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 9".
+![jawaban soal 7](../../week%2011/docs/p5/soal9.gif)
+
+
