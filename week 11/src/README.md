@@ -39,5 +39,31 @@ Tambahkan kode pada onPressed di ElevatedButton seperti berikut.
 - Jelaskan maksud kode langkah 5 tersebut terkait substring dan catchError!
         
     Substring digunakan untuk mengambil suatu bagian spesifik dari string. Sehingga maksud dari substring di kode di atas adalah  mengambil karakter dari indeks ke-0 sampai ke-458 dari value.body.toString(). Sedangkan catchError berfungsi untuk menangani error yang terjadi saat proses asynchronous  terjadi (pada pemanggilan getData()). 
+
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 3".
 ![jawaban soal 3](../../week%2011/docs/p1/soal3.gif)
+
+## Praktikum 2: Menggunakan Await/Async untuk Menghindari Callbacks
+
+### Langkah 1: Buka file main.dart
+Tambahkan tiga method berisi kode seperti berikut di dalam class _FuturePageState.
+![01](../../week%2011/docs/p2/langkah1.png)
+
+### Langkah 2: Tambah method count()
+Lalu tambahkan lagi method ini di bawah ketiga method sebelumnya.
+![02](../../week%2011/docs/p2/langkah2.png)
+
+### Langkah 3: Panggil count()
+Lakukan comment kode sebelumnya, ubah isi kode onPressed() menjadi seperti berikut.
+![03](../../week%2011/docs/p2/langkah3.png)
+
+### Langkah 4: Run
+Akhirnya, run atau tekan F5 jika aplikasi belum running. Maka Anda akan melihat seperti gambar berikut, hasil angka 6 akan tampil setelah delay 9 detik.
+
+**Soal 4**
+- Jelaskan maksud kode langkah 1 dan 2 tersebut!
+        
+    Kode tersebut menggunakan fungsi count untuk memanggil tiga fungsi asinkron, yaitu returnOneAsync, returnTwoAsync, dan returnThreeAsync, secara berurutan. Setiap fungsi asinkron ini memiliki jeda selama satu detik sebelum mengembalikan nilainya masing-masing (1, 2, dan 3). Nilai-nilai yang dikembalikan kemudian dijumlahkan dan disimpan dalam variabel total. Setelah semua fungsi selesai dieksekusi, metode setState dipanggil untuk memperbarui UI dengan hasil penjumlahan tersebut.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 4".
+![jawaban soal 4](../../week%2011/docs/p2/soal4.gif)
