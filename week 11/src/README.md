@@ -67,3 +67,28 @@ Akhirnya, run atau tekan F5 jika aplikasi belum running. Maka Anda akan melihat 
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 4".
 ![jawaban soal 4](../../week%2011/docs/p2/soal4.gif)
+
+## Praktikum 3: Menggunakan Completer di Future
+
+### Langkah 1: Buka file main.dart
+Pastikan telah impor package async berikut.
+![01](../../week%2011/docs/p3/langkah1.png)
+
+### Langkah 2: Tambahkan variabel dan method
+Tambahkan variabel late dan method di class _FuturePageState seperti ini.
+![02](../../week%2011/docs/p3/langkah2.png)
+
+### Langkah 3: Ganti isi kode onPressed()
+Tambahkan kode berikut pada fungsi onPressed(). Kode sebelumnya bisa Anda comment.
+![03](../../week%2011/docs/p3/langkah3.png)
+
+### Langkah 4: Run
+Terakhir, run atau tekan F5 untuk melihat hasilnya jika memang belum running. Bisa juga lakukan hot restart jika aplikasi sudah running. Maka hasilnya akan seperti gambar berikut ini. Setelah 5 detik, maka angka 42 akan tampil.
+
+**Soal 5**
+- Jelaskan maksud kode langkah 2 tersebut!
+        
+    Program tersebut bertujuan untuk menggunakan fungsi getNumber yang menginisialisasi sebuah Completer dan memanggil fungsi calculate. Fungsi calculate menunggu selama lima detik sebelum menyelesaikan Completer dengan nilai 42. Nilai tersebut dapat diakses melalui properti future dari Completer, yang kemudian akan dimuat menggunakan setState saat tombol "GO" ditekan.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 5".
+![jawaban soal 5](../../week%2011/docs/p3/soal5.gif)
