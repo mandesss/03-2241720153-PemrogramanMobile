@@ -92,3 +92,19 @@ Terakhir, run atau tekan F5 untuk melihat hasilnya jika memang belum running. Bi
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 5".
 ![jawaban soal 5](../../week%2011/docs/p3/soal5.gif)
+
+### Langkah 5: Ganti method calculate()
+Gantilah isi code method calculate() seperti kode berikut, atau Anda dapat membuat calculate2()
+![05](../../week%2011/docs/p3/langkah5.png)
+
+### Langkah 6: Pindah ke onPressed()
+Ganti menjadi kode seperti berikut.
+![06](../../week%2011/docs/p3/langkah6.png)
+
+**Soal 6**
+- Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
+        
+    Pada langkah 5-6 ditambahkan fungsi trycatch yang digunakan untuk menangani error
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 6".
+![jawaban soal 5](../../week%2011/docs/p3/soal6.gif)
