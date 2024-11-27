@@ -108,3 +108,21 @@ Ganti menjadi kode seperti berikut.
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 6".
 ![jawaban soal 5](../../week%2011/docs/p3/soal6.gif)
+
+## Praktikum 4: Memanggil Future secara Paralel
+
+### Langkah 1: Buka file main.dart
+Tambahkan method ini ke dalam class _FuturePageState
+![01](../../week%2011/docs/p4/langkah1.png)
+
+### Langkah 2: Edit onPressed()
+Anda bisa hapus atau comment kode sebelumnya, kemudian panggil method dari langkah 1 tersebut.
+![02](../../week%2011/docs/p4/langkah2.png)
+
+### Langkah 3: Run
+Anda akan melihat hasilnya dalam 3 detik berupa angka 6 lebih cepat dibandingkan praktikum sebelumnya menunggu sampai 9 detik.
+
+**Soal 7**
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 7".
+![jawaban soal 7](../../week%2011/docs/p4/soal7.gif)
