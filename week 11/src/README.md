@@ -255,6 +255,43 @@ Tambahkan kode berikut untuk menangani ketika terjadi error. Kemudian hot restar
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 14".
 ![jawaban soal 14](../../week%2011/docs/p7/soal14.gif)
     
+## Praktikum 8: Navigation Route dengan Future Function
 
+### Langkah 1: Buat file baru navigation_first.dart
+Buatlah file baru ini di project lib Anda.
 
+### Langkah 2: Isi kode navigation_first.dart
+![02](../../week%2011/docs/p8/langkah2.png)
+
+**Soal 15**
+
+- Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+- Silakan ganti dengan warna tema favorit Anda.
+
+### Langkah 3: Tambah method di class _NavigationFirstState
+Tambahkan method ini.
+![03](../../week%2011/docs/p8/langkah3.png)
+
+### Langkah 4: Buat file baru navigation_second.dart
+Buat file baru ini di project lib Anda. Silakan jika ingin mengelompokkan view menjadi satu folder dan sesuaikan impor yang dibutuhkan.
+
+### Langkah 5: Buat class NavigationSecond dengan StatefulWidget
+![05](../../week%2011/docs/p8/langkah5.png)
+
+### Langkah 6: Edit main.dart
+Lakukan edit properti home.
+![06](../../week%2011/docs/p8/langkah6.png)
+
+### Langkah 7: Run
+Lakukan run, jika terjadi error silakan diperbaiki.
+![07](../../week%2011/docs/p8/langkah7.png)
+
+**Soal 16**
+- Cobalah klik setiap button, apa yang terjadi? Mengapa demikian?
+
+    Saat tombol ditekan, Navigator.pop mengirimkan nilai warna yang telah ditentukan kembali ke halaman pertama, dan tampilan pada halaman pertama diperbarui untuk mencocokkan warna yang baru.
+
+- Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W11: Soal 16".
+![jawaban soal 16](../../week%2011/docs/p8/soal16.gif)
 
