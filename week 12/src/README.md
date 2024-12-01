@@ -34,3 +34,22 @@ Tambahkan variabel di dalam class ColorStream seperti berikut.
 - Tambahkan 5 warna lainnya sesuai keinginan Anda pada variabel colors tersebut.
 - Lakukan commit hasil jawaban Soal 2 dengan pesan "W12: Jawaban Soal 2"
 ![jawaban soal 2](../../week%2012/docs/p1/soal2.png)
+
+### Langkah 5: Tambah method getColors()
+Di dalam class ColorStream ketik method seperti kode berikut. Perhatikan tanda bintang di akhir keyword async* (ini digunakan untuk melakukan Stream data)
+![05](../../week%2012/docs/p1/langkah5.png)
+
+### Langkah 6: Tambah perintah yield*
+Tambahkan kode berikut ini.
+![06](../../week%2012/docs/p1/langkah6.png)
+
+**Soal 3**
+
+- Jelaskan fungsi keyword yield* pada kode tersebut!
+
+    keyword yield* berfungsi untuk semua nilai yang dihasilkan oleh stream lain ke dalam stream yang sedang dihasilkan oleh asynchronous generator.
+
+- Apa maksud isi perintah kode tersebut?
+
+    Isi dari perintah kode tersebut bermaksud untuk mengalirkan semua event dari stream yang dihasilkan oleh Stream.periodic ke dalam stream getColors().
+- Lakukan commit hasil jawaban Soal 3 dengan pesan "W12: Jawaban Soal 3"
