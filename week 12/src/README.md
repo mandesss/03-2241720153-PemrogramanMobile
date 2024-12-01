@@ -83,3 +83,14 @@ Lakukan running pada aplikasi Flutter Anda, maka akan terlihat berubah warna bac
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 ![jawaban soal 4](../../week%2012/docs/p1/soal4.gif)
 - Lakukan commit hasil jawaban Soal 4 dengan pesan "W12: Jawaban Soal 4"
+
+### Langkah 13: Ganti isi method changeColor()
+Anda boleh comment atau hapus kode sebelumnya, lalu ketika kode seperti berikut.
+![13](../../week%2012/docs/p1/langkah13.png)
+
+**Soal 5**
+
+- Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !
+
+    Apabila menggunakan listen maka callback pada setiap event (tidak berurutan) sedangkan apabila menggunakan await for maka event yang diproses satu per satu (berurutan)
+- Lakukan commit hasil jawaban Soal 5 dengan pesan "W12: Jawaban Soal 5"
